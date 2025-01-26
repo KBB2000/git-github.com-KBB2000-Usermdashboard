@@ -5,7 +5,7 @@ const UserCard = ({ user, images = [], onEdit, onDelete }) => {
   const randomImage =
     images.length > 0
       ? images[Math.floor(Math.random() * images.length)]
-      : "https://via.placeholder.com/150"; // Default placeholder image
+      : "https://via.placeholder.com/150"; 
 
   return (
     <div className="user-card" onClick={onEdit}>
